@@ -1,1 +1,1 @@
-[MyPage](https://kalen2019.github.io/wp108b/homework/personalpage/personalpage.html)
+[MyPage](https://kalen2019.github.io/homework/homework1/personalpage.html)
