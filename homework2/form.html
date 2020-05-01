@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
+
     <title>註冊個人帳戶</title>
     <link rel="stylesheet" type="text/css" href="form.css"/>
 </head>
 <body>
-<div class="main">
     <form>
         <fieldset>
             <legend>請填寫以下問題</legend>
@@ -16,7 +16,7 @@
             <label for="password">密碼:</label>
             <input type="password" id="password" name="password"><p>
             <label for="picture" enctype="multipart/form-data">個人照片:</label>
-            <input type="file" onchange="readURL(this)" targetID="imageA" name="picture" accept="image/gif, image/jpeg, image/png"/>
+            <input type="file" onchange="readURL(this)" targetID="imageA" name="picture" accept="image/gif, image/jpeg, image/png"/><p>
             <img id="imageA" src="#" width="120px" height="150px"/><p>
             <label for="E-mail">E-mail:</label>
             <input type="text" id="E-mail" name="E-mail"><p>
@@ -72,6 +72,5 @@
         }
         
         </script>
-</div>
 </body>
 </html>
