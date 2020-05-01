@@ -1,7 +1,7 @@
 form {
     width: 500px; 
     height: 100%;
-    margin: auto;
+    margin: 0 auto;
 }
 textarea {
   width: 100%;
