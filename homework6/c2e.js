@@ -10,6 +10,5 @@ function mt (c) {
   return e
 }
 
-console.log('process.argv.slice(2)=', process.argv.slice(2))
 var e = mt(process.argv.slice(2))
 console.log(e)
