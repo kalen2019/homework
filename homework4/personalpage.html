@@ -7,6 +7,48 @@
 <link rel="stylesheet" type="text/css" href="personalpage.css"/>
 
 </head>
+<header>
+  <!--以下是功能表-->
+  <div class="navbar">
+      <!--以下是側欄-->
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="HomePage.html">首頁</a>
+          <a href="personalpage.html">關於我</a>
+          <a href="experience.html">經歷</a>
+          <a href="intersting.html">興趣</a>
+          <a href="https://github.com/kalen2019/Learnning">學習集</a>
+          <a href="#">C語言</a>
+          <a href="#">C# Windows Form</a>
+          <a href="https://github.com/kalen2019/Learnning/tree/master/Html%26Css">Html&Css</a>
+          <a href="https://github.com/kalen2019/Learnning/tree/master/JavaScript">JavaScript</a>
+      </div> 
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "125px";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <a><span style="font-size:16px;cursor:pointer" onclick="openNav()">&#9776;</span></a>
+      <a href="HomePage.html">首頁</a>
+      <a href="personalpage.html">關於我</a>
+      <a href="https://github.com/kalen2019">MyGithhub</a>
+      <div class="dropdown">
+        <button class="dropbtn">常用網站</button>
+        <div class="dropdown-content">
+          <a href="https://www.bilibili.com/">BiliBili</a>
+          <a href="https://www.youtube.com/?gl=TW&hl=zh-TW">YouTube</a>
+          <a href="https://www.twitch.tv/">Twitch</a>
+          <a href="http://www.eyny.com/">伊莉討論區</a>
+          <a href="https://www.ciweimao.com/">刺蝟貓閱讀</a>
+          <a href="https://www.qidian.com/">起点中文网</a>
+          <a href="https://ac.qq.com/">腾讯动漫</a>
+        </div>
+      </div> 
+  </div>  
+</header>
 <body>
 
 <h1>蔡文宏 の個人首頁</h1>
@@ -29,7 +71,5 @@
                           <a href="https://wall.alphacoders.com/by_sub_category.php?id=227264&name=%E5%88%80%E5%89%91%E7%A5%9E%E5%9F%9F2+%E5%A3%81%E7%BA%B8&lang=Chinese" alt="">Wallpaper Abyss</a>
                         </td></tr>
 </table>
-
-<!--https://wall.alphacoders.com/big.php?i=338835&lang=Chinese 背景分享來源-->
 </body>
 </html>
