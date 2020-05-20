@@ -1,7 +1,8 @@
 form {
-    width: 100%; 
+    width: 50%; 
     height: 100%;
     border-style: none;
+    margin:0 auto;/*水平置中*/
 }
 textarea {
   width: 80%;
@@ -25,4 +26,5 @@ textarea, button {
     background-repeat:no-repeat;
     background-attachment: fixed;
   }
+
  
