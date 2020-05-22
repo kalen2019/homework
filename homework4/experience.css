@@ -94,7 +94,7 @@
     background-color: #ddd;
   }
   
-  .dropdown:hover .dropdown-content {
+  .show {
     display: block;
   }
   /*以下是網頁內容的CSS*/

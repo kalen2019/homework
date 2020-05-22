@@ -34,9 +34,11 @@
         <a href="HomePage.html">首頁</a>
         <a href="personalpage.html">關於我</a>
         <a href="https://github.com/kalen2019">MyGithhub</a>
+        <!--以下是下拉式選單-->
         <div class="dropdown">
-          <button class="dropbtn">常用網站</button>
-          <div class="dropdown-content">
+          <button class="dropbtn" onclick="myFunction()">常用網站
+          <i class="fa fa-caret-down"></i></button>
+          <div class="dropdown-content" id="myDropdown">
             <a href="https://www.bilibili.com/">BiliBili</a>
             <a href="https://www.youtube.com/?gl=TW&hl=zh-TW">YouTube</a>
             <a href="https://www.twitch.tv/">Twitch</a>
@@ -46,11 +48,12 @@
             <a href="https://ac.qq.com/">腾讯动漫</a>
           </div>
         </div>
+        <script src="topbar.js"></script>
         <div style="position:absolute;right:0px;">
           <a href="registerform.html">註冊</a>
           <a href="LoginForm.html">登入</a> 
         </div> 
-    </div>  
+    </div>
 </header>
 <body>    
   <h1>蔡文宏的個人網站-經歷</h1>
