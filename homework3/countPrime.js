@@ -13,3 +13,4 @@ function isPrime(n) {
      c=c+1;
   }
   console.log("countPrime(%d,%d)=>%d",a,b,c);
+  //先參考老師範例，後自己寫出來，已100%理解原理//

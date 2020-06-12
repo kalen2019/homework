@@ -15,3 +15,4 @@ function neg(a)
     return neg;
 }
 console.log("neg(",a,") => ",neg(a));
+//先參考老師範例，後自己寫出來，已100%理解原理//

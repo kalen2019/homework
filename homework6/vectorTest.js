@@ -9,3 +9,4 @@ console.log('va.add(vb)=', a.add(b));
 console.log('va.sub(vb)=', a.sub(b));
 console.log('va.dot(vb)=', a.dot(b));
 console.log('va.neg()=', a.neg());
+//先參考老師範例，後自己寫出來，已100%理解原理//

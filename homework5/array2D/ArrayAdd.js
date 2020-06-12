@@ -14,3 +14,4 @@ function add(a,b)
     return add;
 }
 console.log("add(",a,",",b,") =>",add(a,b));
+//先參考老師範例，後自己寫出來，已100%理解原理//

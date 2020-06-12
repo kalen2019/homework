@@ -11,3 +11,4 @@ function mean(a)
     return mean;
 }
 console.log("mean(",a,") => ",mean(a));
+//先參考老師範例，後自己寫出來，已100%理解原理//
