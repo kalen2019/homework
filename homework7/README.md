@@ -1,0 +1,11 @@
+這是我這學期的學習筆記
+作業
+[homework1](https://github.com/kalen2019/homework/tree/master/homework1)
+[homework2](https://github.com/kalen2019/homework/tree/master/homework2)
+[homework3](https://github.com/kalen2019/homework/tree/master/homework3)
+[homework4](https://github.com/kalen2019/homework/tree/master/homework4)
+[homework5](https://github.com/kalen2019/homework/tree/master/homework5)
+[homework6](https://github.com/kalen2019/homework/tree/master/homework6)
+練習
+[HTML&CSS](https://github.com/kalen2019/Learnning/tree/master/Html%26Css)
+[JavaScript](https://github.com/kalen2019/Learnning/tree/master/JavaScript)
